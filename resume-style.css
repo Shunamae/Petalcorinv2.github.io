@@ -1,0 +1,91 @@
+body{
+    background-image: url("PHOTOS/background\ 7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    color: rgba(5, 39, 90, 0.918);
+    font-size: 100px;
+    font-family:Arial;
+    text-align: center;
+}
+p{
+    color: rgba(20, 107, 156, 0.918);
+    font-size: 60px;
+    font-family:Franklin Gothic Medium;
+    text-align: center;
+}
+.header {
+    overflow: hidden;
+    background-color: rgb(140, 133, 175);
+    /*padding: 20px 10px;*/
+  }
+
+.header img{
+    height: 50px;
+    width: 50px;
+  }
+  
+
+  /* Style the header links */
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the background color on mouse-over */
+.header a:hover {
+    background-color: Black;
+    color: White;
+  }
+
+.header a.active {
+    background-color: rgb(4, 21, 94);
+    color: rgb(238, 191, 214);
+  }
+  
+  /* Float the link section to the right */
+.header-Right {
+    float: right;
+  }
+  /* START OF SECTION */
+.section-title h2, p{
+  color:  rgb(4, 48, 73);
+  font-size: 50px;
+  font-family: Arial;
+  text-align: center;
+}
+  .footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(159, 156, 173);
+    color: rgb(8, 56, 78);
+    text-align: center;
+    font-size: 30px;
+
+  }   
+  #context ul {
+    color: rgb(4, 6, 43);
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+  }

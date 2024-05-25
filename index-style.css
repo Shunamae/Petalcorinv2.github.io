@@ -1,0 +1,89 @@
+body{
+    background-image: url("PHOTOS/people/Person\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: rgba(5, 39, 90, 0.918);
+    font-size: 100px;
+    font-family:Arial;
+    text-align: center;
+}
+p{
+    color: rgba(20, 107, 156, 0.918);
+    font-size: 60px;
+    font-family:Franklin Gothic Medium;
+    text-align: center;
+}
+.header {
+    overflow: hidden;
+    background-color: rgb(231, 57, 179);
+    /*padding: 20px 10px;*/
+  }
+
+.header img{
+    height: 50px;
+    width: 50px;
+  }
+  
+
+  /* Style the header links */
+.header a {
+    float: left;
+    color: rgb(230, 183, 206);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Georgia';
+    font-weight: bold;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the background color on mouse-over */
+.header a:hover {
+    background-color: Black;
+    color: White;
+  }
+
+.header a.active {
+    background-color: rgb(245, 65, 191);
+    color: rgb(238, 191, 214);
+  }
+  
+  /* Float the link section to the right */
+.header-Right {
+    float: right;
+  }
+  .footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(247, 168, 185);
+    color: rgb(8, 56, 78);
+    text-align: center;
+    font-size: 30px;
+
+  }  
+  #context ul {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+  } 
+  #context img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

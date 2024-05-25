@@ -1,0 +1,83 @@
+body{
+    background-image: url("PHOTOS/services.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: rgba(219, 123, 68, 0.986);
+    font-size: 100px;
+    font-family:Arial;
+    text-align: center;
+}
+p{
+    color: rgba(221, 103, 67, 0.918);
+    font-size: 60px;
+    font-family:Franklin Gothic Medium;
+    text-align: center;
+}
+.header {
+    overflow: hidden;
+    background-color: rgb(165, 243, 178);
+    /*padding: 20px 10px;*/
+  }
+
+.header img{
+    height: 50px;
+    width: 50px;
+  }
+  
+
+  /* Style the header links */
+.header a {
+    float: left;
+    color: rgb(233, 158, 114);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the background color on mouse-over */
+.header a:hover {
+    background-color: Black;
+    color: White;
+  }
+
+.header a.active {
+    background-color: rgb(7, 87, 21);
+    color: rgb(238, 191, 214);
+  }
+  
+  /* Float the link section to the right */
+.header-Right {
+    float: right;
+  }
+  .footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(169, 248, 169);
+    color: rgb(230, 164, 126);
+    text-align: center;
+    font-size: 30px;
+
+  } 
+  #context ul {
+    color: rgb(226, 91, 73);
+    font-size: 40px;
+    font-family:cursive;
+    text-align: center;
+  }  
